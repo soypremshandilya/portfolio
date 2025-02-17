@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Prem Shandilya</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="bg-video">
+      <source src="assets/vid.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <header>
+      <nav>
+        <h1 class="logo">Prem</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <h2 class="fade-in">Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <script src="scripts/contact.js"></script>
+  </body>
+</html>
